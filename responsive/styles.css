@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+:root {
+    --cols: 4;
+  }
+
+html,
+body {
+    font-family: 'IBM Plex Sans', sans-serif´;
+
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        max-width: 1200px;
+        margin: 0 auto;
+        border-bottom: 1px solid;
+        
+       
+       }
+       .nav a {
+        padding: 10px 16px 8px 8px;
+        text-decoration: none;
+        color: black;
+        border-bottom: 5px solid transparent;
+      }
+      .nav a:hover {
+        border-bottom: 4px solid;
+      }
+       
+       .btn-nav {
+        text-decoration: none;
+        color: black;
+        
+        
+       }
+
+       .card-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 16px;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 16px;
+        flex-direction: row;
+       }
+   
+        .card {
+            width: calc(100% / var(--cols) - 16px);
+             position: relative;
+            transition: all 200ms ease-in-out;
+            cursor: pointer;
+
+         }
+         .card img {
+            width: 100%;
+            border-radius: 5%;
+         }
+         .card-separete {
+            position: absolute;
+            top: 64%;
+            background: white;
+            box-shadow: 0px 10px 13px -2px lightgray;
+            margin: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 12px;
+            border-radius: 5%;
+            transition: all 200ms ease-in-out;
+          }
+        
+         .top-card {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            margin-top: -12px;
+          }
+          .title {
+            font-size: 22px;
+            padding-top: 0px;
+            margin: -30px 0px -30px 0px;
+            line-height: 106%;
+            font-weight: bold;
+          }
+          .date-card {
+            font-size: 10px;
+            color: lightgray;
+            margin: 0px 0px -15px 0px;
+          }
+          .text-card {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            font-size: 14px;
+            line-height: 117%;
+          }
+          .bottom-card {
+            display: flex;
+            justify-content: space-between;
+            margin: -4px 0px -12px 0px;
+            font-size: 10px;
+          }
+         
+         
+          @media screen and (max-width: 796px) {
+            :root {
+              --cols: 1;
+            }
+            .card {
+              display: flex;
+            }
+            .card img {
+              width: 40%;
+              object-fit: cover;
+            }
+            .card:hover .division-card {
+              border-radius: 0 5% 5% 0; 
+              margin: 10px 0;
+            }
+          
+            .card-container {
+              position: static;
+              background: white;
+              box-shadow: 10px 0px 22px 0px lightgray;
+              margin: 10px;
+              display: flex;
+              flex-direction: column;
+              padding: 12px;
+              border-radius: 5%;
+            }
+            .card-separete {
+              position: relative;
+            }
+          
+          }
+         
+         

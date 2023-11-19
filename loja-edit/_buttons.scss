@@ -1,0 +1,82 @@
+
+.section {
+    width: 100%;
+    
+}
+.logo__nav {
+    width: 25%;
+    margin-left: 6px;
+}
+.nav__bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.btns__logo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.nav__btns {
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 30px;
+    margin-right: 10px;
+}
+
+.btn__nav {
+    background-color: transparent;
+    border: none;
+}
+
+
+.btn_1 {
+background-color: #FCED70;
+margin-top: 20px;
+padding: 16px 24px;
+border-radius: 4px;
+border: none;
+}
+.btn:hover {
+    
+    cursor: pointer;
+}
+.btns__logo:hover {
+    cursor: pointer;
+}
+.btn__nav:hover {
+    cursor: pointer;
+}
+    
+.btn_second-page {
+    display: flex;
+    justify-content: center;
+}
+
+.card__4-btn {
+
+    background-color: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 37px;
+}
+
+.btn__subscribe {
+    border-radius: 0 4px 4px 0;
+    background-color: #F7EEE3;
+    cursor: pointer;
+    border: none;
+    padding: 16px;
+}
+

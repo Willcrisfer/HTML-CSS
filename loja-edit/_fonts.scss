@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;700&display=swap");
+html, body {
+  font-family: "Inter";
+}
+
+.title__center {
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+.title__product {
+    
+    font-size: 30px;
+    
+}
+
+.bolder {
+    font-weight: bold;
+    margin: 0px 0px 14px 0px;
+}
+h2.title {
+    color: white;
+    font-size: 28px;
+}
+
+.description__product-page {
+    max-width: 400px;
+    padding: 12px 0px 0px 0px;
+}
+
+.subtitle__product {
+    padding-bottom: 8px;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 6px;
+}
+.price__product {
+    color: #9C9C9C;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.nomad {
+    text-decoration: underline;
+    letter-spacing: 8px;
+    line-height: 40px;
+}
+
+p.card__4-p {
+    font-size: 20px;
+    font-style: italic;
+    line-height: 37px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+
+html,
+body {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 16px;
+    background: rgba(10, 10, 10, 1);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.board {
+    border: 1px solid rgba(50, 50, 50, 1);
+    background: rgba(20, 20, 20, 1);
+    display: flex;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.cell {
+    border: 0.5px dashed rgba(50, 50, 50, 1);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.target {
+    background-color: rgba(30, 30, 30, 1);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background: rgb(87, 64, 236);
+    position: absolute;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+pre {
+    display: inline;
+}
+
+
+
+/* CSS a partir daqui */
+
+.ball-0 {
+    left: 40px;
+    bottom: 120px;
+}
+
+.ball-1 {
+
+    left: 40px;
+    bottom: 160px;
+    
+}
+
+.ball-2 {
+    bottom: 200px;
+    left: 200px;
+}
+
+.ball-3 {
+    left: 320px;
+    bottom: 240px;
+}
+
+.ball-4 {
+    bottom: 360px;
+    left: 120px;
+}
+
+.ball-5 {
+    bottom: 200px;
+    left: 360px;
+}
+
+.ball-6 {
+    bottom: 280px;
+    left: 0px;
+}
+
+.ball-7 {
+    bottom: 40px;
+    left: 160px;
+}
+
+.ball-8 {
+    bottom: 240px;
+    left: 280px;
+}
+
+.ball-9 {
+    bottom: 200px;
+    left: 320px;
+}
+

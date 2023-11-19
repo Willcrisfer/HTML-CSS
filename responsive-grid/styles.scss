@@ -1,0 +1,44 @@
+$gap: 8px;
+$columns: 12;
+
+// O container é alguém que centra o conteúdo e limita o seu tamanho aos 1200px;
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+// o container-fluid é uma versão do container que cresce sempre 100% da largura
+.container-fluid {
+	width: 100%;
+	margin: 0 auto;
+}
+
+// este selector , é um selector partial, o seu trabalho é selecionar todos os elementos que contêm na classe algo com "col-";
+[class*="col-"] {
+	border: 0.5px solid gray;
+	box-sizing: border-box;
+	padding: 8px;
+}
+
+// A row é sempre o pai das colunas. o seu trabalho é conseguir flexibilizar as suas colunas.
+.row {
+	margin: $gap auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: $gap;
+}
+
+@for $i from 1 through $columns {
+	.col-lg-#{$i} {
+		width: calc(100% / $columns * $i - $gap);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	@for $i from 1 through $columns {
+		.col-lg-#{$i} {
+			width: calc(100% - $gap);
+		}
+	}
+}

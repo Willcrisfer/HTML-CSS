@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    top: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0 auto;
+    width: 450px;
+    height: 700px;
+    text-align: center;
+    background: radial-gradient(left,right, radial-gradient left to right ora);
+    border-radius: 12px;
+    background-color: rgba(213, 101, 15, 0.715)    
+
+}
+.card {
+    background: linear-gradient(to right top, rgba(238, 31, 31, 0.911)blue    );
+    display: inline-block;
+    position: relative;
+    background-color: orange;
+    width: 450px;
+    height: 700px;
+    border-radius: 12px;
+}
+.logo-nike {
+    
+    position: relative;
+    right: 170px;
+
+}
+
+.price {
+
+    position: relative;
+    left: 184px;
+    bottom: 28px;
+    color: white;
+    font-size: 25px;
+    
+}
+
+.card-title {
+    position: relative;
+    color: white;
+    font-size: 22px;
+    right: 120px;
+    margin: 6px;
+
+}
+
+.card-info {
+    left: 12px;
+    color: white;
+    text-align: left;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    width: 435px;
+}
+.air {
+    top: 200px;
+    position: absolute;
+    font-size: 300px;
+    color: rgba(255, 255, 255, 0.591);
+    text-align: center;
+    overflow: hidden;
+}
+.shoes-img {
+    position: relative;
+    
+}
+
+.card-down {
+    top: 420px;
+    width: 450px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    border-radius: 12px;
+}
