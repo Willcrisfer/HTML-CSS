@@ -432,6 +432,10 @@ p.card__4-p {
   font-weight: bold;
 }
 
+.sofa__detail {
+  text-decoration: none;
+}
+
 .footer__top {
   display: flex;
   background-color: black;
